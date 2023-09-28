@@ -12,7 +12,7 @@ while True:
 
 numbers.sort()
 
-length = (len(numbers)+1)/2
+length = (len(numbers)-1)/2
 
 if length%1 == 0:
     print(numbers[int(length)])
